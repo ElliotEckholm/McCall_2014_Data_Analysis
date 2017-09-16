@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		0D95900C1E22C1490063E668 /* readMccallData */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = readMccallData; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D95900F1E22C1490063E668 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0D9590161E22C1670063E668 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		0DD068831E306B77003CA2E8 /* readWriteHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readWriteHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				0D95900F1E22C1490063E668 /* main.cpp */,
+				0D9590161E22C1670063E668 /* main.h */,
+				0DD068831E306B77003CA2E8 /* readWriteHeader.h */,
 			);
 			path = readMccallData;
 			sourceTree = "<group>";
@@ -246,6 +250,7 @@
 				0D9590151E22C1490063E668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
